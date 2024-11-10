@@ -1,0 +1,32 @@
+[
+    {
+        "conversation": [
+            {"role": "user", "content": "I want to order a vegetarian meal for my flight"}
+        ],
+        "function": "check_dietary_restrictions"
+    },
+    {
+        "conversation": [
+            {"role": "user", "content": "What meal options are available for my flight?"}
+        ],
+        "function": "check_meal_availability"
+    },
+    {
+        "conversation": [
+            {"role": "user", "content": "I need to change my meal selection"}
+        ],
+        "function": "change_meal"
+    },
+    {
+        "conversation": [
+            {"role": "user", "content": "How much does it cost to add a special meal?"}
+        ],
+        "function": "calculate_meal_cost"
+    },
+    {
+        "conversation": [
+            {"role": "user", "content": "I have a gluten allergy, what meals can I have?"}
+        ],
+        "function": "check_dietary_restrictions"
+    }
+]

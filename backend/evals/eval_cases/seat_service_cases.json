@@ -1,0 +1,32 @@
+[
+    {
+        "conversation": [
+            {"role": "user", "content": "I want to select my seat for the flight"}
+        ],
+        "function": "check_seat_availability"
+    },
+    {
+        "conversation": [
+            {"role": "user", "content": "Can I change my seat to a window seat?"}
+        ],
+        "function": "check_seat_availability"
+    },
+    {
+        "conversation": [
+            {"role": "user", "content": "I need an aisle seat due to medical reasons"}
+        ],
+        "function": "check_seat_availability"
+    },
+    {
+        "conversation": [
+            {"role": "user", "content": "Please assign me any available seat"}
+        ],
+        "function": "attribute_seat"
+    },
+    {
+        "conversation": [
+            {"role": "user", "content": "I want to switch from 12A to an aisle seat"}
+        ],
+        "function": "change_seat"
+    }
+]

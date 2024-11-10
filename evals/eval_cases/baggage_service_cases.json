@@ -1,0 +1,26 @@
+[
+    {
+        "conversation": [
+            {"role": "user", "content": "I can't find my luggage from yesterday's flight"}
+        ],
+        "function": "initiate_baggage_search"
+    },
+    {
+        "conversation": [
+            {"role": "user", "content": "I want to add an extra bag to my booking"}
+        ],
+        "function": "check_baggage_allowance"
+    },
+    {
+        "conversation": [
+            {"role": "user", "content": "I need to remove a bag from my reservation"}
+        ],
+        "function": "calculate_baggage_refund"
+    },
+    {
+        "conversation": [
+            {"role": "user", "content": "How much does it cost to add another suitcase?"}
+        ],
+        "function": "calculate_baggage_fee"
+    }
+]
